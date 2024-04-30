@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/Css/Style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header class="header">
+        <nav>
+            <a href="#" class="logo">
+                <h2>VIDEOGRAph</h2>
+            </a>
+            <div class="nav-bar" id="menu">
+                <a href="#" onclick="hideMenu()"><i class="fa-solid fa-xmark"></i></a>
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Serivec</a></li>
+                    <li><a href="#">Pages</a></li>
+                    <li><a href="#">Contact</a></li>
+
+                </ul>
+
+
+            </div>
+            <a href="#" class="menu-bar" onclick="showMenu()"><i class="fa-solid fa-bars"></i></a>
+            <div class="social-link">
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+
+        </nav>
+        <div class="content">
+            <div class="row">
+                <div class="col-heading">
+                    <p>Lorem ipsum dolor sit amet,
+                    </p>
+                    <h1>VideoGraph <br> Portfoloi</h1>
+                    <a href="#" class="btn"> See More about</a>
+                </div>
+                <div class="col-img">
+                    <img src="/img/hero img.avif" alt="">
+
+                </div>
+            </div>
+
+        </div>
+
+    </header>
+    <section class="hero">
+        <div class="row">
+            <div class="hero-heading">
+                <p>Our Serives</p>
+                <h1>what we do</h1>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique vel provident quis libero sit
+                    quibusdam tenetur eligendi reprehenderit porro harum!</p>
+                <a href="" class="btn"> view all services</a>
+
+            </div>
+            <div class="hero-card">
+                <div class="card1">
+                    <a href="#"><i class="fa-brands fa-edge"></i></a>
+                    <h2>Motive graphic</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, voluptatem?</p>
+                </div>
+                <div class="card1">
+                    <a href="#"><i class="fa-brands fa-edge"></i></a>
+                    <h2>Video Editing</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, voluptatem?</p>
+                </div>
+                <div class="card1">
+                    <a href="#"><i class="fa-brands fa-edge"></i></a>
+                    <h2>video Hosting</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, voluptatem?</p>
+                </div>
+                <div class="card1">
+                    <a href="#"><i class="fa-brands fa-edge"></i></a>
+                    <h2>Script Editing</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, voluptatem?</p>
+                </div>
+                
+            </div>
+
+        </div>
+
+
+    </section>
+
+    <script>
+        var menu = document.getElementById('menu')
+        function showMenu() {
+            menu.style.right = "0px"
+        }
+
+        function hideMenu() {
+            menu.style.right = "-200px"
+        }
+
+    </script>
+
+</body>
+
+</html>
